@@ -1,0 +1,61 @@
+.new-document-container{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 97.4%;
+  margin-top:10px;
+}
+.new-document-head{
+  background-color: white;
+  border-radius: 5px;
+  height:70.5vh;
+}
+
+
+.card-uploadoc {
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid black;
+  width:95%;
+  height:67vh;
+  margin: 13px 10px;
+  object-fit: cover;  
+}
+
+.card-body-uploaddoc{
+  margin-top:5rem;
+}
+
+ 
+.file-upload-icondoc{
+  color:#184D32;
+  padding-top: 5em;
+}
+
+  
+.buttoncolorbardoc{
+  background-color: #184D32;
+  border-radius:5px;
+  border: none;
+  color: white;
+  margin-top: 2rem;
+  padding: 0px 15px;
+  font-weight: 550;
+}
+  
+ 
+  
+.preview-mediadoc{
+  width:95%;
+  height:65vh;
+  margin-top: -15rem;
+  object-fit: cover;
+}
+
+
+  
+  
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+  cursor: not-allowed;
+}

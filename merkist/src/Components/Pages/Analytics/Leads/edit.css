@@ -1,0 +1,92 @@
+#cardContainer {
+    background-color: #ffffff;
+    margin: 100px;
+    width: 225px;
+    height: 300px;
+    border-radius: 11px;
+    padding: 10px;
+    position: absolute;
+    right: -77px;
+    top:275px;
+  }
+  .lead_name{
+    color: black;
+    font-size: 12px;
+  }
+  
+  #line {
+    width: 200px;
+    height: 0.5px;
+    background-color: black;
+  }
+  
+  .score {
+    width: 30%;
+  }
+  
+  .scoreData {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: lightgreen;
+  }
+  
+  .description {
+    font-size: 9px;
+    margin-top: -50px;
+  }
+  
+  .countScore {
+    color: #1b411b;
+    font-size: 23px;
+    font-weight: 600;
+  }
+  
+  .individualScore {
+    text-align: center;
+  }
+  
+  #scoreContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    justify-content: space-between;
+  }
+  
+  .perecentageIcon {
+    font-size: 15px;
+    padding-top: 8px;
+    padding-left: 5px;
+  }
+  
+  .percentageScore {
+    color: #1b411b;
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .percentageWrapper {
+    font-size: 11px;
+    width: 38%;
+  }
+  
+  .percentageContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 9%;
+  }
+  
+  #chartContainer {
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-top: -14%;
+  }
+  #chartContainer12{
+    font-size:10px;
+  }

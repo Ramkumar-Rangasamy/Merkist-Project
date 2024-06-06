@@ -1,0 +1,112 @@
+.options_container9{ 
+    width:80%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.txt_autodate9{
+    font-size: 10px; 
+    padding-left:15px;  
+}
+
+.tools_autodate9{
+  border: 1px solid black;
+  height: 13px;
+  font-size:10px ;
+  display: flex;
+  align-items: center;
+  margin-left: 0.9rem;
+  margin-top: -13px;
+  border-radius: 20px;
+}
+
+.icon_calc9{
+  padding-left: 5px;
+  font-size: 15px;
+  color:  #0e3422;
+}
+.txt_autodate_header9{
+ font-size: 10px;
+ padding-left:5px;
+ margin-top:18px;
+ color: black;   
+}
+
+.title9{
+  font-size: 8px;
+  color: black;
+  margin-left: 1.6rem;
+  padding-top: 10px;
+}
+
+.countScore9 {
+  color: rgb(20, 70, 10);
+  font-size: 20px;
+  font-weight:bold;
+  padding-left:30px;
+}
+.icon_dollar_ads9{
+  font-size: 10px;
+}
+
+.scoreData9 {
+  display: flex;
+  text-align: center;
+  color: lightgreen;
+  font-size: 12px;
+  font-weight: 600;
+  margin-left:40px;
+}
+
+
+.icon_arrow9{
+  margin-top: 2px;
+  padding-left: 2px;
+}
+
+.description9 {
+  margin-block-start: 0px;
+  font-size: 10px;
+  padding-left: 5px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  color: black;
+}
+
+/*Services*/
+.service_dropdown9{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.txt_services9{
+  font-size: 10px;
+  margin-left:10px;
+  color: black;
+}
+
+.drop_down_menu_services9{
+  border-radius: 20px;
+  font-size: 10px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  margin-left: 0.5rem;
+  margin-top: -13px;
+}
+
+.service_dropdown9_post{
+  padding-top: 5px;
+}
+
+
+
+
+/*throgh-rate last one*/
+.throgh-rate{
+  margin-top:2.7rem;
+}
+
+
+
+
+

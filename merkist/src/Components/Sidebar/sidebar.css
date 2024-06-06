@@ -1,0 +1,72 @@
+.sidebar {
+    background-color: #184D32;
+    width:250px;
+    height:100%;
+}
+
+.dashboard {
+    color: white;
+    font-size:25px;
+    font-weight:bold;
+    padding-top: 6rem;
+    padding-left:2.5rem;
+}
+
+.side{
+    overflow-y: scroll;
+    height: calc(70vh - 100px);
+    padding-left: 15px;
+    color: white;
+    margin-right: 10px;
+}
+
+.list-group-item span {
+    font-size:18px;
+}
+
+.side a i {
+    padding-left:1.5rem;
+}
+
+.side a:hover {
+    background-color: #08321e;
+    color: white;
+    cursor: pointer;
+    border-radius:5px;
+    width: 90%;
+}
+
+.team-chat {
+    color: white;
+    padding-left: 2.5rem;
+    font-size:25px;
+    margin-top:1rem;
+    cursor: pointer;
+}
+
+.team-chat:hover {
+    cursor: pointer;
+    width: 90%;
+}
+
+.side::-webkit-scrollbar {
+    width: 14px;
+}
+
+.side::-webkit-scrollbar-thumb {
+    background-color:#4C835F;
+    opacity: 90%; 
+    border-radius: 2px;
+}
+
+.logo_brand {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 576px) {
+    .logo_brand {
+        padding-left: 30px;
+        padding-top: 0px;
+    }
+}

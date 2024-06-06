@@ -1,0 +1,223 @@
+.cardContainer_payment2 {
+  border: 1px solid black;
+  width: 280px;
+  height:140px;
+  border-radius:10px;
+  margin-top:0.5rem;
+  margin-left:-3px;
+}
+
+.txt_payment2{
+  border-bottom: 1px solid transparent;
+  border-color: black;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: left;
+  font-size: 11px;
+}
+
+.score2{
+  margin-top: 10px;
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.description2{
+  margin-bottom: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 300px)  and (max-width: 600px){
+  .full_payment_container1{
+    margin-left: -14px;
+    width: 110%;
+    
+  }
+  .cardContainer_payment2 {
+    border-radius:11px; 
+    border: 1px solid black;
+    width:80%;
+    height: 120px;
+
+  }
+  .newface{
+    margin-left: -55px ;
+    width: 140px;
+    
+  }
+  .facebookcard2{
+   /* margin-left: -20px !important; */
+   width:50px !important;
+   
+  }
+   .description2 {
+  white-space: nowrap;
+  overflow: visible;
+   }
+   .pr-2{
+    margin-left: -3px;
+   }
+}
+@media (min-width: 601px) and (max-width: 1024px) and (orientation: landscape) {
+  /* Styles for tablets and larger devices */
+
+  .full_payment_container1 {
+    margin-left: -14px;
+    width: 100%;
+  }
+
+  .cardContainer_payment2 {
+    border-radius: 11px; 
+    border: 1px solid black;
+    width: 80%;
+    height: 120px;
+  }
+
+  .newface {
+    width: 210px;
+    margin-left: 150px;
+  }
+
+  .facebookcard2 {
+    width: 100%;
+  }
+
+  .description2 {
+    white-space: nowrap;
+    overflow: visible;
+  }
+
+  .pr-2 {
+    margin-left: -3px;
+  }
+}
+
+
+
+
+.score_payment2 {
+  font-size: 10px;
+  width: 30%;
+}
+
+.scoreData_payment2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: lightgreen;
+}
+
+
+
+.facebookcard2 {
+  border: 1px solid black;
+  border-radius: 10px; 
+  margin-top:0.5rem;
+  margin-left:-15px;
+}
+
+.facebook_container2{
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  margin-top:-5px;
+  width: 95%;
+  border-bottom: 1px solid black;
+}
+.facebook_container_last2{
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  margin-top: 5px;
+  width:95%;
+}
+
+#facebook-icon2 {
+  font-size: 25px;
+  padding: 5px;
+  color: darkgreen;
+  display: inline-block;
+}
+
+.container_progress_payments2{
+  background-color: rgb(192, 192, 192); 
+  width:95%; 
+  border-radius: 15px; 
+  height: 4px;
+  margin-top:10px;
+  margin-bottom:3px;
+}
+.skilled { 
+  background-color: rgb(10, 70, 20); 
+  color: white; 
+  padding: 2%; 
+  text-align: right; 
+  border-radius:15px; 
+  height:4px;
+} 
+.ads_spent_txt2{
+    color: black;
+}
+.ads_week_subtext2{
+    color: black;
+}
+
+.percentage_subtext2{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.facebook_percentage2{
+  width: 30%;
+}
+.twitter_percentage2{
+  width: 25%;
+}
+.ads_week_subtext2{
+ text-align: right;
+}
+.ads_percentage20{
+  font-size:7px;
+  margin-left:2px;
+  color:#1b411b;
+}
+.title2{
+  font-size: 8px;
+  color: black;
+}
+.icon_dollar_ads2{
+  font-size: 8px;
+  font-weight: bold;
+}
+.icon_arrow2{
+    font-size: 10px;
+}
+.scoreData2{
+  font-size: small;
+  color: #1b411b;
+}
+.countScore22{
+  font-size: 15px;
+  font-weight: 700;
+  color: #1b411b;
+}
+.description2{
+  font-size:8px;
+  color: black;
+}
+.new92{
+  color: lightgreen;
+   position: relative;
+   bottom:10px;
+}

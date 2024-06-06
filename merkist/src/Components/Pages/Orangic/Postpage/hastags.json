@@ -1,0 +1,36 @@
+{
+  "hashtags": [
+    {
+      "letter": "A",
+      "suggestions": [
+        "#Art", "#Adventure", "#Animals", "#Architecture", "#Astronomy", "#Athletics", "#Automobiles", "#Aviation", "#Apples", "#Aquarium", 
+        "#Acrobatics", "#Applause", "#Affection", "#Antiques", "#Alphabet", "#Aerobics", "#Acoustic", "#Alligator", "#Anniversary", "#Algebra", 
+        "#Aromatherapy", "#Antarctica", "#Amphibians", "#Anatomy", "#Avalanche", "#Agriculture", "#Accordion", "#Aisle", "#Alpaca", "#Aphids", 
+        "#Abacus", "#Anchovy", "#Armchair", "#Apricot", "#Amethyst", "#Angling", "#Atmosphere", "#Avocado", "#Antlers", "#Albatross", "#Aperitif", 
+        "#Aborigine", "#Arrowhead", "#Aikido", "#Argyle", "#Amulet", "#Arboretum", "#Alloy", "#Anxiety", "#Asparagus"
+      ]
+    },
+    {
+      "letter": "B",
+      "suggestions": [
+        "#Books", "#Beach", "#Baking", "#Basketball", "#Bicycles", "#Birds", "#Balloons", "#Bridges", "#Ballet", "#Barbecue",
+        "#Butterflies", "#Boating", "#Bakery", "#Bonsai", "#Botany", "#Bears", "#Bracelets", "#Bingo", "#Brewery", "#Bees", 
+        "#Broccoli", "#Bangles", "#Backpacking", "#Bricks", "#Bungalows", "#Beekeeping", "#Buddhism", "#Buoys", "#Blueprints", 
+        "#Bottles", "#Bisque", "#Bunkers", "#Bagpipes", "#Biathlon", "#Beehive", "#Bivouac", "#Balsam", "#Beachcomber", "#Blizzard", 
+        "#Bustle", "#Baobab", "#Bulldozer", "#Boulevard", "#Birdbath", "#Bowling", "#Backyard", "#Bougainvillea", "#Belladonna", 
+        "#Bejeweled", "#Banister", "#Babushka", "#Boxwood"
+      ]
+    },
+    {
+      "letter": "C",
+      "suggestions": [
+        "#Cooking", "#Coding", "#Cats", "#Cinema", "#Camping", "#Cakes", "#Chess", "#Clouds", "#Coffee", "#Cycling",
+        "#Calligraphy", "#Crystals", "#Chocolates", "#Chickens", "#Crochet", "#Carpentry", "#Canyoning", "#Cacti", "#Carnivals", 
+        "#Concerts", "#Crayons", "#Canoeing", "#Curtains", "#Coins", "#Cider", "#Cheese", "#Candles", "#Calisthenics", "#Carousels", 
+        "#Countryside", "#Cricket", "#Cuddling", "#Compass", "#Cappuccino", "#Cobwebs", "#Curtseys", "#Charity", "#Cherries", 
+        "#Cafeteria", "#Cellphones", "#Croquet", "#Cauliflower", "#Corkscrew", "#Cradle", "#Crescent", "#Chameleon", "#Cosmetics", 
+        "#Cheetahs", "#Carnations", "#Caterpillars", "#Clinging", "#Carnage", "#Canyonlands", "#Cravings"
+      ]
+    }
+  ]
+}

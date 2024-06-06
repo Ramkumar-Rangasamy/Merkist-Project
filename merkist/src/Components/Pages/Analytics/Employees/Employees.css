@@ -1,0 +1,35 @@
+.Number-head{
+   margin: -20px;
+}
+.number-text{
+    line-height: 11px;
+    font-size: 12px;
+    width: auto;
+    height: 5px;
+    color: black;
+}
+.title_employe{
+    font-size: 10px;
+    font-weight: 600;
+    color:#0e3422; 
+    padding-top:3px;
+}
+.number_740{
+    text-align: right;
+    font-weight: bold;
+    font-size:15px;
+    color: #184D32;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top:3px;
+}
+
+.height-20{
+    height: 25px;
+}
+.no-of-employee-graph{
+    height: 120px;
+}
+.no-of-employees-progress-container{
+    height: 35px;
+}
+

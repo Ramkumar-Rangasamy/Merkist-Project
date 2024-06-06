@@ -1,0 +1,222 @@
+/* card1 social css starts here */
+.card1-social-conatiner{
+    border-color: 1px solid  black;
+    width: 100%;
+}
+.card1-socail-row-1{
+    margin-top: 10px;
+}
+
+.social-head{
+    border: 1px solid black; 
+    border-radius: 10px;
+    height: 100%;
+    width:95%;
+    color: #0e3422;  
+}
+
+.txt-social-head{
+    font-size: 11px;
+    font-weight:600;  
+    padding-left: 7px;
+    color: #184D32;
+}
+.txt-social-head{
+    border-bottom: 0.5px solid black;
+}
+.social-subcard-row{
+    height: min-content;
+}
+
+.social-text-number{
+    color: #184D32;
+    font-weight:700;
+    font-size: 20px;
+    text-align: left;
+}
+.social-text-company-name{
+    color: #184D32;
+    font-size: 10px;
+    text-align: left;
+}
+.icon-arrow-social{
+    font-size: 11px;
+    color: white;
+    border-radius:10px;
+    width:20px;
+    background-color:rgb(11, 174, 11);
+}
+.social-text-subtext{
+    font-size: 6px;
+}
+.company-analytic-cards-col-container-name{
+    color: white;
+}
+.icon_circle{
+    color: white;
+}
+
+
+/* ====================== MEDIA QURIES (MEDIUM DEVICES) ========================*/
+@media screen and (max-width:1200px) {
+    .social-text-number{
+        font-size: 15px;
+
+    }
+    .social-text-company-name{
+        font-size: 7px;
+    }
+}
+ 
+ /* ====================== MEDIA QURIES (MEDIUM DEVICES) ========================*/
+ @media screen and (max-width:600px) {
+        .social-text-number{
+        font-size: 15px;
+
+    }
+    .social-text-company-name{
+        font-size: 7px;
+    }
+ }
+
+/* card1 social css ends here */
+
+
+/* card2 social css starts here */
+
+.card2-social-container{
+    border: 1px solid black;
+    width:97.5%;
+    color: #0e3422; 
+    margin-top: 7px;
+    border-radius: 10px;
+    margin-left: 4px; 
+}
+.txt-analytic-head-container{
+    height: 7%;
+}
+.txt-analytic-head{
+    color: black;
+    font-size: 11px;
+    font-weight:600;  
+    border-bottom: 1px solid black;
+    padding-left: 7px;
+    height: fit-content;
+}
+.chart-row-social{
+    height: 180px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.company-analytic-cards-col-container{
+    height: 12px;
+    
+}
+.icon_circle{
+    display: flex;
+    text-align: center;
+    font-size: 10px;
+    padding:4px;
+    height: 15px;
+}
+
+.company-analytic-cards-col-container-name{
+    font-size: 10px;
+    margin-left: 5px; 
+}
+
+.company-analytic-cards{
+    height:20px;
+    background-color:#184D32;
+    margin-left:5px;
+    margin-right:5px;
+    border-radius: 5px;
+}
+/* card2 social css ends here */
+
+
+/*Facebook Instagram Twitter */
+
+.card1-social-col-2{
+  width:30%;
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-left:3px;
+}
+
+.card1-social-spefic-card-container{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 45%;
+}
+.social-specific-card-continer-for-col1{
+    border: 1px solid black;
+    width: 100% !important;
+}
+.txt-social-specific-head-container{
+    height:10%
+}
+
+.flex-box{
+    width: 70%;
+    height: 50px;
+    background:linear-gradient(160deg,#0e3422,#6e7b6eeb);
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    font-weight: bolder;
+    padding-top: 3px;
+    text-align: center;
+    align-items: center;
+    border-radius:5px;
+    margin:9px;
+}
+
+.flex-boxone{
+    font-size: 18px;
+    font-weight:600;
+    color: darkgreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fontsize-15{
+    font-size: 15px;
+}
+.fontsize-8{
+    font-size: 8px;
+}
+.flex-box-Twitter{
+    height: 30px;
+    width: 70%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 10px;
+    margin-left:10% ;
+    background:linear-gradient(160deg,#0e3422,#6e7b6eeb);
+}
+
+/* ====================== MEDIA QURIES (MEDIUM DEVICES) ========================*/
+@media screen and (max-width:1200px) {
+    .fontsize-15{
+        font-size: 12px;
+    }
+    .fontsize-8{
+        font-size: 6px;
+    }
+    #tri-icon{
+        font-size: 12px;
+    }
+}
+
+
+ /* ====================== MEDIA QURIES (MEDIUM DEVICES) ========================*/
+ @media screen and (max-width:600px) {
+    .fontsize-15{
+        font-size: 12px;
+    }
+    .fontsize-8{
+        font-size: 6px;
+    }
+    #tri-icon{
+        font-size: 12px;
+    }
+}

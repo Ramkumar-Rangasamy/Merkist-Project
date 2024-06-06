@@ -1,0 +1,292 @@
+/* campaigns  card container css starts here */
+
+.campaign-container{
+  padding: 10px;
+
+}
+.campaign-column-container-row-1{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-left: 10px;
+ 
+  
+
+}
+
+
+.campaign-column-container-1{
+  margin-left: 9px;
+
+}
+.campaign-column1-container-row-2{  
+  border:1px solid black;
+  border-radius: 5px;
+  height: 150px;
+  margin-top: 7px;
+ 
+  
+}
+.campaigns-column-container-2{
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 30%;
+  margin-left: 1px;
+}
+
+/* campaigns  card container css ends here */
+
+/* card1 campaigns css starts here */
+
+.campaigns-text-header{
+  color: black;
+}
+
+.txt-campaigns-head{
+  font-size: 11px;
+  font-weight:600;  
+  color: #0e3422;
+  border-bottom: 0.5px solid black;
+ 
+}
+
+.last-3-months-container{
+  border: 1px solid black;
+  height: 15px;
+  border-radius: 5px;
+  margin-left: 5px;
+  display: flex;
+  margin-top: 10px;
+  width: fit-content;
+  padding-right: 2px;
+}
+.last-3-moths-txt{
+  color: black;
+  font-size: 8px;
+  font-weight: 500;
+}
+.last-3-months-icon{
+  color: black;
+  font-size: 12px;
+  padding-top: 2px;
+}
+.campaigns-card1-icon-container{
+  padding-left: 5px;
+}
+.campaigns-card1-icon-item{
+  color: #0e3422;
+  font-size: 12px;
+  padding-left: 2px;
+}
+.campaign-card1-txt-header{
+  color: black;
+  font-size: 7px;
+  margin-top: 8px;
+}
+.campaign-card1-txt-header-1{
+  color: black;
+  font-size: 7px;
+  margin-top: 8px;
+}
+.campaign-card1-number-header{
+  color: #0e3422;
+  font-size: 12px;
+  font-weight: 1000;
+}
+.campaigns-card1-subtext--header-conatainer{
+  display: flex;
+}
+.campaigns-card1-subtext--header-icon{
+  color:green ;
+  font-size: 7px;
+}
+.campaigns-card1-subtext--header-txt{
+  color: green;
+  font-size: 7px;
+}
+
+.campaign-card1-number-header-container{
+  display: flex;
+}
+.campaign-card1-dollar-header{
+  color: #0e3422;
+  font-size: 5px;
+  padding-left: 2px;
+  padding-top: 2px;
+  font-weight: 1000;
+}
+
+.campaigns-card3-column2-graph{
+  margin-top: 5px;
+}
+
+/* media query for the card1 */
+/* ====================== MEDIA QURIES (MEDIUM DEVICES) ========================*/
+@media screen and (max-width:1200px) {
+  .last-3-moths-txt{
+    font-size: 5px;
+  }
+  .last-3-months-icon{
+    font-size: 8px;
+  }
+  .campaigns-card1-icon-item{
+    font-size: 10px;
+  }
+  .campaign-card1-number-header{
+    font-size: 8px;
+  }
+  .campaign-card1-txt-header-1{
+    font-size: 5px;
+  }
+}
+
+/* ====================== MEDIA QURIES (MEDIUM DEVICES) ========================*/
+@media screen and (max-width:600px) {
+
+}
+
+
+
+/* card1 campaigns css ends here */
+
+.campaign-column1-row2-txt-header{
+  color: black;
+  font-size:8px ;
+}
+.campaign-column1-row2-txt-number-container{
+  display: flex;
+}
+.campaign-column1-row2-txt-number-container-dollar{
+  color:#0e3422;
+  font-size: 10px;
+  font-weight: 1000;
+  padding-top: 12px;
+}
+.campaign-column1-row2-txt-number-container-number{
+  color: #0e3422;
+  font-size: 20px;
+  font-weight: 1000;
+}
+.campaign-column1-row2-txt-number-container-k{
+  color: #0e3422;
+  font-size: 12px;
+  font-weight:1000;
+  padding-top: 10px;
+}
+.campaign-column1-row2-txt-subtext-number{
+  color: black;
+  font-size: 5px;
+  font-weight:500;
+}
+.campaign-column1-row2-txt-subtext-progress{
+  color: green;
+  font-size: 5px;
+}
+
+.google_ads_campaigns{
+  width: 62%;
+}
+.campaigns-column1-row2-302-txt{
+  color: #0e3422;
+  font-weight: 700;
+  font-size: 20px;
+}
+.campaigns-column1-row2-conversions-txt{
+  color: black;
+  font-size: 8px;
+}
+
+/* media query for the card1 */
+/* ====================== MEDIA QURIES (MEDIUM DEVICES) ========================*/
+@media screen and (max-width:1200px) {
+  .campaign-column1-row2-txt-header{
+    color: black;
+    font-size:4px ;
+  }
+  .campaign-column1-row2-txt-number-container-dollar{
+    font-size: 8px;
+    padding-top: 7px;
+  }
+  .campaign-column1-row2-txt-number-container-number{
+    font-size: 15px;
+    font-weight: 1000;
+  }
+  .campaign-column1-row2-txt-number-container-k{
+    font-size: 10px;
+    padding-top: 6px;
+  }
+  .campaign-column1-row2-txt-subtext-number{
+    font-size: 2px;
+  }
+  .campaigns-column1-row2-302-txt{
+    font-size: 15px;
+  }
+  .campaigns-column1-row2-conversions-txt{
+    font-size: 6px;
+  }
+}
+
+/* ====================== MEDIA QURIES (MEDIUM DEVICES) ========================*/
+@media screen and (max-width:600px) {
+
+}
+
+/* card2 campaigns css ends here */
+
+
+/* card3 campaigns css starts here */
+.campaigns-card3-card-header{
+  color: black;
+  font-size: 8px;
+  text-align: left;
+  padding-top: 5px;
+}
+.campaigns-card3-card-percentage-container{
+  display: flex;
+  padding-left: 5px;
+  padding-top:23px;
+}
+.campaigns-card3-card-uparrow-icon{
+  color: green;
+  font-size: 10px ;
+}
+.campaigns-card3-card-percentage-txt{
+  color: green;
+  font-size: 8px;
+}
+.campaigns-card3-column2-graph{
+  width: 100px;
+  height: 50px;
+  padding-left: 10px;
+  margin-left: 10px;
+  margin-top: -5px;
+}
+.campaigns-card3-column2-graph-numbers{
+  color: #0e3422;
+  font-size: 10px;
+  font-weight:1000;
+  text-align:center;
+  padding-right:4px;
+}
+.campaigns-card3-column2-graph-txt{
+  color: black;
+  font-size: 7px;
+  text-align: center;
+}
+.campaigns-card3-column2-graph-numbers-conatiner{
+  margin-top: -13px;
+}
+
+
+
+/* media query for the card1 */
+/* ====================== MEDIA QURIES (MEDIUM DEVICES) ========================*/
+@media screen and (max-width:1200px) {
+
+}
+
+/* ====================== MEDIA QURIES (MEDIUM DEVICES) ========================*/
+@media screen and (max-width:600px) {
+
+}
+
+/* card3 campaigns css ends here */

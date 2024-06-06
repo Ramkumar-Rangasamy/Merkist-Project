@@ -1,0 +1,280 @@
+.dispaly_head{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 97.4%;
+  margin-top:10px;
+}
+
+.dispaly_container  {
+  background-color: white;
+  border-radius: 5px;
+  height:70.5vh;
+}
+
+/*scroll bar*/
+/* .dispaly_head{
+  overflow-x: hidden;
+  overflow-y: scroll; 
+  height: calc(98vh - 200px);
+  margin-right:0.5rem;
+  margin-top:10px;
+}
+.dispaly_head::-webkit-scrollbar {
+  width: 14px;
+}
+
+.dispaly_head::-webkit-scrollbar-thumb {
+  background-color:#4C835F;
+  opacity: 90%; 
+  border-radius:2px;
+} */
+
+.img-fluid{
+  width:95%;
+  height:67vh;
+  border-radius:5px;
+  margin: 13px 10px;
+  object-fit: cover;  
+}
+
+.tab{
+  cursor:pointer;
+  list-style-type: none;
+  padding:10px;
+}
+
+.tab li {
+  display: inline;
+  cursor: pointer;
+  padding:0px  40px;
+  margin-left:2rem;
+  margin-right: 2rem;
+  color:grey;
+  text-align: center;
+  font-weight: bold;
+}
+
+.tab li:hover {
+  color: #184D32;
+  border-bottom: 3px solid #184D32;
+
+}
+
+.show-content{
+  display:block;
+}
+
+.contentt{
+  display: none;
+}
+
+/* //filter// */
+.filter-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap:10px;
+}
+
+.filter-options button {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.filter-options button.active {
+  background-color: #184D32;
+  color: #fff;
+  border-color: #184D32;
+}
+
+.filter-button {
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+
+.hover-image-video:hover{ 
+  padding:2px;
+  border: 2px solid #184D32 ;
+}
+
+
+/*adjectments code*/
+
+.single-slider{
+  margin: 10px;
+  margin-bottom:10px;
+}
+
+.slider-label{
+  font-size: 15px;
+  color: #184D32;
+  font-weight: 600;
+}
+
+.slider-input{
+  font-size: 10px;
+  width: 80%;
+  height:0.3rem;
+  margin-left: 10%;
+  accent-color: #184D32;
+}
+.slider-input-1{
+  font-size: 10px;
+  width: 80%;
+  height: 2px;
+  margin-left: 10%;
+  accent-color: #184D32;
+}
+.slider-value{
+  padding-left:3px;
+  color: #184D32;
+  font-size:10px;
+  font-weight:600;
+}
+
+
+/*Button container*/
+
+.button-container {
+  margin-top:8rem;
+}
+
+.generate-ai-button {
+  background-color: #184D32; 
+  color: #fff; 
+  border: none;
+  padding:7.5px 10px ;
+  border-radius: 4px;
+
+}
+
+.btn-text-style{
+  font-size:10px;
+  font-weight:700;
+} 
+
+.btn-icon{
+  font-size: 14px;
+  margin-right: 5px;
+  font-weight: 600;
+}
+
+.save-button,.post-button {
+  background-color: #184D32; 
+  color: #fff; 
+  border: none;
+  padding:5px 10px ;
+  border-radius:4px;
+
+}
+
+.save-button{
+  background-color: #fff;
+  color: #184D32;
+  border: 1px solid #184D32 ;
+}
+
+
+
+
+
+
+/* Popup container*/
+
+.popup-container-post {
+  position: fixed;
+  top: 60%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  z-index: 999;
+  width:550px; 
+  height:220px; 
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius:10px; 
+}
+
+.also-post{
+  padding-top:10px;
+  font-size: 17px;
+  font-weight:600;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+}
+
+.black-hr-tag {
+  border: 1px solid #184D32;
+  margin-top: -10px;
+}
+
+.container-icon-popup{
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+}
+
+.pcontainer{
+  border: none;
+  background-color: white;
+  color: #184D32;
+}
+
+.container-icon-popup-button{
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+}
+
+.icon-popup-post:hover{
+  border: 1.5px solid #14FF00;
+  border-radius:3px;
+}
+
+.cancel-button-popup{
+  background-color:#184D32 ;
+  border: none;
+  border-radius:5px;
+  padding: 1px 20px;
+  color: white;
+
+}
+
+.container-last-popup-button{
+ margin-left:32%;
+}
+.post-button-popup{
+  background-color:#fff ;
+  border:1px solid #184D32;
+  border-radius:5px;
+  padding: 0px 20px;
+  margin-left: 20px;
+  color:black;
+}
+
+.post-button-popup:hover{
+  background-color:#184D32 ;
+  padding: 1px 20px;
+  color: white;
+  border: none;
+
+}
+
+
+.background-blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); 
+  z-index: 998;
+}
+
+
+

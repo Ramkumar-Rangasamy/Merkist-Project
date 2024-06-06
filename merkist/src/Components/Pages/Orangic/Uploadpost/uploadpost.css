@@ -1,0 +1,63 @@
+.card-upload-post{
+  width: 32em;
+  height:35em;
+  border-radius: 20px;
+  background-color: white;
+  border: none;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
+
+.postcreate{
+ padding-top:10px;
+}
+
+.black-hr {
+  border: 1px solid black;
+}
+
+.icon-logo-image{
+  color:#184D32;
+  padding-top: 5em;
+}
+
+.showing-here{
+  font-size: 20px;
+}
+
+.select-bar{
+  background-color: #184D32;
+  border-radius:10px;
+  border: none;
+  color: white;
+  text-align: center;
+  padding:1px 15px ;
+  font-weight:550;
+}
+
+.showing-or{
+ font-size:17px;
+}
+
+.create-doucment-bar{
+  background-color:white;
+  border-radius:10px;
+  border: 1px solid #184D32;
+  color: #184D32;
+  text-align: center;
+  padding:0px 20px ;
+  font-weight: 550;
+}
+
+.draft-bar{
+  margin-top:10rem;
+  background-color:white;
+  border-radius:3px;
+  border: 1px solid #184D32;
+  color: #184D32;
+  text-align: center;
+  padding:0px 10px ;
+  font-weight: 550;
+}
+
+

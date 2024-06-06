@@ -1,0 +1,482 @@
+.banner_container{
+    border: 0.1px solid transparent;
+    border-radius: 5px;
+    width:100%;
+}
+/* new css starts here */
+.card-container{
+    height: 280px;
+    border:1px solid black;
+    border-radius: 10px;
+    margin-left:5px;
+    margin-top:0px;
+    margin-bottom: 0px;
+    margin-right: 5px;
+}
+.txt-brands-head{
+    font-size: 11px;
+    font-weight:600;  
+    padding-left: 7px;
+    color: #0e3422;
+    border-bottom: 0.5px solid black;
+    margin-block-end: 5px;
+}
+.logo-container {
+    width: 60%;
+    color: rgb(10, 70, 20);
+    margin-left: 30%;
+
+}
+.logo-container-other-brand{
+  width: 80%;
+  color: rgb(10, 70, 20);
+  margin-left: 20%;
+}
+.text-dark {
+ margin-block-end: 0px;
+}
+
+.coca-graph-canva{
+  height: 98%;
+  width: 100%;
+}
+
+.container_progress_others { 
+  background-color: rgb(192, 192, 192); 
+  width: 90%; 
+  border-radius: 15px; 
+  /* margin-left: 10px; */
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.hootsuite-name{
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(10, 70, 20); 
+}
+
+
+/* ====================== MEDIA QURIES (MEDIUM DEVICES) ========================*/
+@media screen and (max-width:1200px) {
+  .banner_container{
+    width: 95%;
+    margin-left: 12px;
+  }
+  .amt_ads_cola{
+    font-size: 12px !important;
+  }
+  .amt_substands_cola{
+    font-size: 8px !important;
+    margin-top: 5px !important;
+  }
+  .icon_dollar_ads_cola{
+    font-size: 5px !important;
+  }
+  .buffer-logos{
+    width: 40%;
+  }
+  .buffer-name{
+    font-size: 15px !important;
+  }
+  .container_progress_others{
+    height: 5px;
+    width: 80% !important;
+  }
+  .skill{
+    height: 5px;
+  }
+  .cola_ads1{
+    height: 5px;
+  }
+
+}
+
+/* ====================== MEDIA QURIES (SMALL DEVICES) ========================*/
+@media screen and (max-width:600px) {
+  .banner_container{
+    width: 93%;
+    margin-left: 12px;
+  }
+  .card-container{
+    width: 95%;
+  }
+  .logo-container{
+    width: 30%;
+  }
+  .buffer-name{
+    font-size: 20px!important;
+  }
+  .buffer-logos{
+    width:50% !important;
+    height:50% !important;
+  }
+  .other-logo-container{
+    justify-content: flex-end;
+  }
+  .logo-container-other-brand{
+    width: 30%;
+  }
+  .skill{
+    padding: 5px;
+  }
+}
+
+
+
+/* new css ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cola_banner_container{
+    max-width: 23% !important;
+    height: 282px!important;
+    border: 1px solid transparent;
+    border-color: black;
+    /* margin: 10px; */
+    border-radius: 10px;
+}
+
+@media (max-width: 576px) { 
+    .col-sm-2 .card {
+        max-width: 250px !important; 
+        width: auto;
+        margin-bottom: 10px;
+    }
+}
+  
+.cola_banner_container-two{
+    max-width: 15% !important;
+    height: 279px!important;
+    border: 1px solid transparent;
+    border-color: black;
+    /* margin: 5px; */
+    border-radius: 10px; 
+}
+
+.txt_cola{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 1px solid transparent;
+    border-color: black;
+    height: 22px;
+    width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+    font-size: 13px;
+    color: black;
+}
+
+.grid_week_months{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.amt_ads_container{
+    display: flex;
+    margin-block: 0px;
+    margin-left: 1px;   
+}
+
+@media (max-width: 576px) {
+     .amt_substands_cola , .cola_ads_container ,.amt_ads_container{
+      margin-left: 0; 
+      margin-right: 10px; 
+    }
+  }
+.amt_ads_cola{
+    font-size: 20px;
+    display: flex;
+    margin-block: 0px;
+    font-weight: bolder;
+    color: rgb(10, 70, 20);
+}
+.amt_substands_cola{
+    font-size: 13px;
+    display: flex;
+    margin-block: 0px;
+    margin-top: 7.5px;
+    font-weight: bolder;
+    color: rgb(10, 70, 20);
+}
+.icon_dollar_ads_cola{
+    margin-top: 9px;
+    font-size: 9px;
+    font-weight: bolder;
+    color: rgb(10, 70, 20);
+}
+.ads_spent_txt{
+    display: flex;
+    margin-block: 0px;
+    margin-left: 2px;
+    font-size: 8px;
+    font-weight:800;
+    color: black;
+}
+.ads_percentage{
+    display: flex;
+    margin-block: 0px;
+    margin-left: 5px;
+    color: green;
+    font-size: 8px;
+}
+.container_progress_cola { 
+    background-color: rgb(192, 192, 192); 
+    width: 90%; 
+    border-radius: 15px; 
+    /* margin-left: 10px; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+} 
+
+.skill { 
+    background-color: rgb(10, 70, 20); 
+    color: white; 
+    padding: 2.5%; 
+    position: relative; 
+    /* right: 8px; */
+    border-radius: 15px; 
+} 
+.cola_ads{
+    width:39%;
+}
+.cola_ads1{
+    width:35%;
+}
+.cola_ads2{
+    width:40%;
+}.cola_ads3{
+    width:54%;
+}.cola_ads4{
+    width:62%;
+}
+.logo_coca{
+    /* position: relative;
+    left: 53px;
+    bottom: 40px;
+ 
+    width:80px;
+    height:50px;
+    color: rgb(10, 70, 20); */
+   
+    width: 60%;
+    height: auto; 
+    color: rgb(10, 70, 20);
+}
+
+.logo_coca.zoomed {
+    transform: scale(1.5);
+  }
+  
+/* .logo-container {
+    width: 60%;
+    height: auto; 
+    color: rgb(10, 70, 20);
+     margin-left: 30%;
+     margin-top: -20px;
+  }
+
+
+  @media (max-width: 576px) {
+    .logo-container {
+        width: 40%;
+        margin-left: 20%; 
+    }
+} */
+
+  .horizontal-rule {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  
+
+.amt_ads_container_week{
+    display: flex;
+    margin-block: 0px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+/* /Buffer/ */
+
+.buffer-logos{
+    width:80%;
+    height:50%;
+    color: rgb(10, 70, 20);
+}
+
+.buffer-name{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(10, 70, 20); 
+}
+
+
+.chiy1,
+.chiy2,
+.chiy3,
+.chiy4 {
+  width: 150px !important;
+  height: 305px !important;
+}
+
+
+
+  
+  @media screen and (max-width: 767px) {
+    .chiy1,
+    .chiy2,
+    .chiy3,
+    .chiy4 {
+      width: 230px !important; 
+      margin-bottom:  10px;
+      margin-left: 15px;
+    }
+  }
+  /* .chiy1 {
+    width: 150px !important; 
+    height: 305px !important; 
+   margin-left: -7rem;
+    
+  }
+  .chiy2 {
+    width: 150px !important; 
+    height: 305px !important; 
+    margin-left: -8rem;
+    
+  }
+  .chiy3 {
+    width: 150px !important; 
+    height: 305px !important; 
+ 
+    
+  }
+  .chiy4 {
+    width: 150px !important; 
+    height: 305px !important; 
+  }
+
+  .chiy3, .chiy4 {
+    margin-left: 30px;
+  } */
+ 
+ 
+/* ================================================================ */
+
+/* /Hootsuite-logo/ */
+
+
+.Hootsuite-logo{
+    /* position: relative;
+    left: 28px;
+    bottom: 40px; */
+    margin-top: -10px;
+    margin-left: 8%;
+    width:20px;
+    height:65px;
+    color: rgb(10, 70, 20); 
+}
+
+
+.Hootsuite-name{
+    /* position: relative;
+    left: 30px;
+    top: 3px; */
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(10, 70, 20); 
+}
+@media screen and (max-width: 1024px) {
+    .Hootsuite-logo {
+      /* margin-top: -10px; */
+      margin-left: 19%; 
+      width: 30px;
+      height: 65px; 
+      color: rgb(10, 70, 20);
+    }
+  
+    .Hootsuite-name {
+      font-size: 10px; 
+      font-weight: bold;
+      color: rgb(10, 70, 20);
+    }
+  }
+
+
+/* /Zoho/ */
+
+.logo_Zoho{
+    /* position: relative;
+    left: 20px;
+    bottom: 40px; */
+    /* margin-top: -20px;
+    margin-left: 8%; */
+    margin-left: 25%;
+    width:60px;
+    height:55px;
+    color: rgb(10, 70, 20);
+}
+
+@media screen and (max-width: 767px) {
+    .logo_Zoho {
+      margin-left: 35%; 
+      width: 60px;
+      height: 55px;
+    }
+  }
+
+
+
+/* /Salesforce/ */
+
+.logo_Salesforce{
+    /* position: relative;
+    left: 20px;
+    bottom: 40px; */
+    margin-left: 35%;
+    width:40px;
+    height:55px;
+    color: rgb(10, 70, 20);
+}
+
+.txt_cola-other{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 1px solid transparent;
+    border-color: black;
+    height: 22px;
+    width: 83%;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+    font-size: 13px;
+    color: black;
+}
+
+
+.week{
+    
+    font-size: 10px;
+}
+
+
+.zoomed {
+    transform: scale(1.5);
+  }
+
+
+  /*======end======  */

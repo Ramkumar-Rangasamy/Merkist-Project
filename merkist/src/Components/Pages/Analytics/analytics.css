@@ -1,0 +1,155 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 10px;
+  width: 99%;
+  margin-bottom:2rem;
+}
+
+.grid-item-1 {
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.item1 {
+  grid-row: 1 / span 2;
+  grid-column: 1/ span 3;
+}
+
+.item2 {
+  grid-column: 4 / span 2;
+  grid-row: 1;
+}
+
+.item3 {
+  grid-column: 6 / span 4;
+  grid-row: 1;
+}
+
+.item4 {
+  grid-column: 4 / span 4;
+  grid-row: 2;
+}
+
+.item5{
+  
+  grid-column: 8 / span 2;
+  grid-row: 2/ span 2;
+}
+
+.item6{
+  grid-column: 1 / span 5;
+  grid-row: 3 / span 2;
+}
+
+.item7{
+  grid-column: 6 / span 2;
+  grid-row: 3;
+}
+
+.item8{
+  grid-column:  6/ span 4;
+  grid-row: 4;
+}
+
+
+.full-card{
+  overflow-x: hidden;
+  overflow-y: scroll; 
+  height: calc(98vh - 200px);
+  cursor: pointer;
+  margin-right:0.5rem;
+  margin-top:10px; 
+}
+.full-card::-webkit-scrollbar {
+  width: 14px;
+}
+
+.full-card::-webkit-scrollbar-thumb {
+  background-color:#4C835F;
+  opacity: 90%; 
+  border-radius: 2px;
+}
+
+
+
+/* Tablet View */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .item1 {
+    grid-row: 1 / span 2;
+    grid-column: 1 / span 3;
+  }
+
+  .item2 {
+    grid-column: 4 / span 3;
+    grid-row: 1;
+  }
+
+  .item3 {
+    grid-column: 1 / span 6;
+    grid-row: 3;
+  }
+
+  .item4 {
+    grid-column: 1 / span 6;
+    grid-row: 4;
+  }
+
+  .item5 {
+    grid-column: 1 / span 6;
+    grid-row: 5;
+  }
+
+  .item6{
+    grid-column: 1 / span 5;
+    grid-row: 3 / span 2;
+  }
+  
+  .item7{
+    grid-column: 6 / span 2;
+    grid-row: 3;
+  }
+  
+  .item8{
+    grid-column:  6/ span 4;
+    grid-row: 4;
+  }
+
+  
+
+  .full-card{
+    margin-right:0.1rem; 
+  }
+}
+
+
+
+/* Mobile View */
+@media only screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    
+  }
+
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5,
+  .item6,
+  .item7,
+  .item8 {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  
+}
+
+
+

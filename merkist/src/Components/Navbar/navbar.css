@@ -1,0 +1,29 @@
+.font{
+  font-size:20px;
+}
+   
+.nav-style{
+    color: white;
+    margin-top: 0.5rem;
+    margin-right: 1.5rem;
+}
+
+.cocaola{
+    margin-right:1.5rem;
+    font-size:60px;
+    color: white;
+    margin-top: -0.5rem;
+}
+
+
+
+/*Notification*/
+
+.notification-box {
+    width: 97.4%;
+    height: 17vh;
+    background-color: #4C835F;
+    border-radius: 5px;
+    margin-top: -10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
